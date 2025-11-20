@@ -36,7 +36,7 @@ import { connect } from 'cloudflare:sockets';
 
 // ==================== 1. 全局配置 ====================
 const CONFIG = {
-    密钥: "abc", // 务必修改
+    密钥: "alal", // 务必修改
     默认兜底反代: "ProxyIP.US.CMLiussss.net:443",
     
     // 策略开关
@@ -250,4 +250,5 @@ export default {
             return new Response('Internal Server Error', { status: 500 });
         }
     }
+
 };
